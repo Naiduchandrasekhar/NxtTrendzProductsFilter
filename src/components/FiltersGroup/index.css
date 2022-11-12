@@ -1,0 +1,90 @@
+.filters-group-container {
+}
+
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    min-width: 30%;
+    max-width: 350px;
+    flex-shrink: 0;
+  }
+}
+
+/* Write your CSS here */
+.headerName {
+  font-size: 20px;
+  padding-left: 5px;
+  font-family: 'Roboto';
+  color: #0f172a;
+}
+
+.unorderCategoryList {
+  padding-left: 0px;
+  list-style-type: none;
+  color: #475569;
+  font-family: 'Roboto';
+}
+
+.unorderRatingList {
+  padding-left: 0px;
+  list-style-type: none;
+}
+
+.starImage {
+  height: 18px;
+  margin-right: 5px;
+}
+
+.categoryList {
+  padding-left: 4px;
+  cursor: pointer;
+}
+
+.ratingList {
+  padding: 8px;
+  padding-left: 5px;
+  cursor: pointer;
+}
+
+.starContainer {
+  padding: 0px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 15px;
+}
+
+.active {
+  color: #0967d2;
+}
+
+.activeRating {
+  color: #0967d2;
+}
+
+.button {
+  color: #0967d2;
+  border: 1px solid #0967d2;
+  background-color: transparent;
+  padding: 4px 8px;
+  margin-left: 10px;
+  font-family: 'Roboto';
+  cursor: pointer;
+}
+
+.inputText {
+  color: #64748b;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.searchBar {
+  margin-top: 55px;
+  display: flex;
+  align-items: center;
+  color: #64748b;
+  background-color: #f1f5f9;
+  padding: 6px;
+  width: 200px;
+  height: 30px;
+}
